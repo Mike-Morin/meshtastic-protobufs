@@ -433,6 +433,10 @@ message AdminMessage {
      * Tell the node to reset the nodedb.
      */
     int32 nodedb_reset = 100;
+
+    * Tell the node to erase all pre-shared keys
+     */
+    bool erase_preshared_keys = 102;
   }
 }
 
